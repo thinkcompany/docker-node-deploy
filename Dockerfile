@@ -1,4 +1,4 @@
-FROM node:6.10.0
+FROM node:10
 ADD VERSION .
 RUN apt-get update && \
     apt-get -y install rsync apt-utils lftp && \
